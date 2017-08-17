@@ -1,0 +1,190 @@
+html, body {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Open Sans", Roboto, Calibri, Arial;
+	min-height: 100%;
+	background: #f1f1f1;
+	overflow-x: hidden;
+}
+
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+#signout {
+	color: white;
+}
+#auth {
+	margin: 0px;
+	font-size: 2vw;
+}
+#white {
+	color:white !important;
+}
+
+input, textarea, select, button {
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-family: inherit;
+	box-sizing: border-box;
+}
+.comment {
+	/*padding: 10px;*/
+	margin-left: 30px;
+	/*border-left: 3px solid #3498db;*/
+	font-size: 20px;
+	color: #444;
+	font-weight: 100;
+}
+
+.comment .message {
+	border: 1px solid rgba(0,0,0,0.1);
+	margin: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.comment .profile {
+	width: 250px;
+	min-width: 250px;
+	/* display: inline-block; */
+	border-right: 1px solid rgba(0,0,0,0.1);
+	/* margin-right: 20px; */
+	margin: 10px;
+	/* height: 100%; */
+	flex: 1 250px;
+	/* margin-bottom: auto; */
+	/* display: flex; */
+}
+
+.comment .profile .name {
+	margin-top: 5px;
+	display: block;
+}
+
+.comment .profile .avatar {
+	float: left;
+	margin-right: 10px;
+}
+
+.comment .profile .time {
+	font-size: 15px;
+}
+
+.comment .body {
+	/* vertical-align: top; */
+	/* display: inline-block; */
+	margin: 10px 0px;
+	flex: 0 100%;
+	margin-right: 10px;
+}
+
+.comment .body .reply {
+	float: right;
+	padding: 5px 30px;
+	font-weight: 100;
+	font-size: 14px;
+	border-radius: 4px;
+	border: 1px solid rgba(0,0,0,0.1);
+	background-color: #3498db;
+	color: white;
+	cursor: pointer;
+	/* margin-top: 10px; */
+	/* margin-right: 10px; */
+}
+
+.avatar {
+	width: 64px;
+	height: 64px;
+	object-fit: cover;
+}
+.response .msg {
+	width: 600px;
+	height: 100px;
+	float:right;
+}
+.response .send {
+	float: right;
+	padding: 5px 30px;
+	font-weight: 100;
+	font-size: 14px;
+	border-radius: 4px;
+	border: 1px solid rgba(0,0,0,0.1);
+	background-color: #2ecc71;
+	color: white;
+	cursor: pointer;
+}
+
+.btn-main {
+    /* padding: 15px 50px; */
+    border-radius: 19px;
+    border: medium none;
+    /* vertical-align: middle; */
+    cursor: pointer;
+    border: 1px solid#333;
+    white-space: nowrap;
+    font-size: 25px;
+    line-height: 1.42857;
+    background: #000;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 5px;
+    width: 100%;
+}
+.resp {
+	height: 100%;
+	width: 100%;
+}
+
+.newMsg {
+	width: 800px;
+	margin: auto;
+	padding: 20px;
+	background: white;
+	box-sizing: border-box;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	overflow: hidden;
+}
+.newMsg h1 {
+	margin: 0px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	font-weight: 400;
+}
+.newMsg label {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 5px;
+	font-weight: 100;
+}
+.newMsg input, .newMsg textarea {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	border-radius: 3px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background: rgba(0, 0, 0, 0.025);
+	margin-bottom: 10px;
+}
+.newMsg .send {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 12px;
+	font-size: 20px;
+	background: #2980b9;
+	color: white;
+	transition: all 0.5s;
+	text-align: center;
+	font-weight: 100;
+	border-radius: 3px;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	cursor: pointer;
+}
+.newMsg .send:hover {
+	background: #2472a4;
+}
